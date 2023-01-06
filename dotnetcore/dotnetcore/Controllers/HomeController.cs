@@ -15,8 +15,9 @@ namespace dotnetcore.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            //lets do some changes
+            //lets do some changes with errors
             _logger = logger;
+           10/5
         }
 
         public IActionResult Index()
